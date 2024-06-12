@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "3.0.7"
+ruby "3.0.0"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.3"
@@ -46,8 +46,8 @@ gem "bootsnap", require: false
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  # gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem "debug", platforms: %i[ mri mswin mswin64 mingw x64_mingw]
+  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # gem "debug", platforms: %i[mri mswin mswin64 mingw x64_mingw]
 end
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
 

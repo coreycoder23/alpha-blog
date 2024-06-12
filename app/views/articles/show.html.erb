@@ -1,0 +1,12 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @article %>
+
+<div>
+  <%= link_to "Edit this article", edit_article_path(@article) %> |
+  <%= link_to "Back to articles", articles_path %>
+
+  <p>
+  <%= link_to 'Delete', article_path(@article), data: { "turbo-method": :delete , "turbo-confirm": "Você tem certeza?"} %>
+  </p>
+</div>
