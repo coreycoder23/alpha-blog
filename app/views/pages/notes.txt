@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Software Journey</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to My Homepage</h1>
+    <h1 class="display-1">display 1 heading</h1>
+    <h1 class="display-4">display 4 heading</h1>
+    <h1 class="display-6">display 6 heading</h1>
+    <p class="display-1">p tag with display-1 class </p>
+    <small>this is small text</small>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <p class="lead text-center">hello ninjas</p>
+    <p class="lead text-end">hello ninjas</p>
+    <p class="lead">hello ninjas</p>
+
+    <p class="text-decoration-underline">this is underline text</p>
+    <p class="text-decoration-line-through">this is line through text</p>
+    <p class="text-decoration-underline">this is underline text</p>
+    <p class="text-decoration-underline">this is underline text</p>
+    
+    <p class="fw-bold">this is bold text</p>
+
+    <p class="text-primary">theme primary colour</p>
+    <p class="text-secondary">theme secondary colour</p>
+    <p class="text-info">theme info colour</p>
+    <p class="text-warning">theme warning colour</p>
+    <p class="text-success">them success colour</p>
+    <p class="text-danger">theme danger colour</p>
+    <p class="text-muted">theme muted colour</p>
+
+    <p class="text-white bg-primary">white text on primary bg</p>
+    <p class="text-white bg-danger">white text on danger</p>
+    <p class="text-white bg-success">white text on success</p>
+    <p class="text-white bg-secondary">primary text on secondary</p>
+    <p class="text-white bg-danger">white text on secondary bg</p>
+
+    <button class="btn btn-primary">primary button</button>
+    <button class="btn btn-secondary">secondary button</button>
+
+    <a href="#" class="btn btn-info">info anchor tag</a>
+    <a href="#" class="btn btn-success">info success tag</a>
+
+    <button class="btn btn-lg btn-danger">large danger button</button>
+    <button href="#"class="btn btn-sm btn-warning">small warning button</button>
+
+    <button class="btn btn-outline-primary btn-sm">outlined primary button</button>
+    <button class="btn btn-outline-secondary btn-lg">large outlined secondary button</button>
+    <h2>Button Groups</h2>
+    <div class="btn-group">
+        <a href="#" class="btn btn-primary">button 1</a>
+        <a href="#" class="btn btn-warning">button 2</a>
+        <a href="#" class="btn btn-success">button 3</a>
+
+    </div>
+
+    <div class="bg-primary m-1 p-1">small margin and padding</div>
+    <div class="bg-primary m-5 p-5">large margin and padding</div>
+    <div class="bg-primary my-3 px-5">margin in y direction, padding in x direction</div>
+    <div class="bg-primary mt-3 mb-4 ms-5 me-1 ps-5 pt-4 pe-2 pb-1">m & p for each direction</div>
+
+    <div class="m-3 p-3 border">default border</div>
+    <div class="m-3 p-3 border-top border-end">individual borders</div>
+    <div class="m-3 p-3 border-bottom">individual bottom border</div>
+    <div class="m-3 p-3 border-start border-success">border success color at start</div>
+    <div class="m-3 p-3 border-start border-danger border-5">thicker border</div>
+    <div class="m-3 p-3 rounded border border-5">rounded corners</div>
+    <div class="m-3 p-3 rounded-pill border border-5">rounded pill corners</div>
+
+    <div class="m-3 p-3 shadow-sm">element with small box shadow</div>
+    <div class="m-3 p-3 shadow-lg">element with large box shadow</div>
+    <div class="m-3 p-3 shadow">element with medium box shadow</div>
+    <div class="m-3 p-3 shadow"><a href="#" class="btn btn-primary">Subscribe</a></div>
+
+    <div class="fw-bold">bold text</div>
+    <div class="fw-bolder">bold text</div>
+    <p>normal text</p>
+    <p class="fw-light">light text</p>
+    <p class="fst-italic">italic text</p>
+    <p class="fst-italic fw-light">italic light text</p>
+
+    <div class="container my-5">
+        <h2>normal container</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum aliquid nisi nam quod sed optio qui impedit cumque. Modi fugiat, animi hic itaque magnam expedita tempore commodi dicta ullam rerum.</p>
+    </div>
+    <div class="container-fluid">
+        <h2>fluid container</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati rem tempora iusto voluptatibus inventore alias. Expedita asperiores, enim, esse eum labore, in animi facere nesciunt laborum distinctio ducimus odit aliquid.</p>
+    </div>
+
+    <div class="container-lg my-5">
+        <h2>100% width until lg screens, then container</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque minus natus voluptates. Hic dignissimos amet delectus iste ex mollitia quis? Deserunt hic pariatur harum. Explicabo non asperiores iure eveniet vero.</p>
+
+    </div>
+
+    <div class="container-xl my-5">
+        <h2>100% width until xl  screens, then container</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptatibus sequi accusantium dolorum! Assumenda ipsum ipsa incidunt aut, ad dolore error eius, veritatis, quas sapiente nostrum. Nostrum consequatur necessitatibus maiores!</p>
+    </div>
+
+</body>
+</html>
+

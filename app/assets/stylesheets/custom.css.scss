@@ -1,0 +1,32 @@
+
+.navbar {
+    background-color: rgb(255, 255, 255) !important;
+  }
+.container-centered {
+  margin: 0 auto;
+} 
+   
+#logo {
+  background-image: url('/app/assets/images/hive_brand_logo.png');
+  background-size: cover;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgrey;
+}
+
+.card-header{ font-style: italic;}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.full-page-bg {
+  background-color: #9e9e9e; /* Replace with your desired color */
+  width: 100%;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
