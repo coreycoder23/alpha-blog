@@ -77,100 +77,19 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark flex-column">
-    <a class="navbar-brand" href="#">Welcome to The Bee Hive.</a>
+    <a class="navbar-brand lead" href="#">Welcome to The Bee Hive.</a>
   </nav>
   
-  <%= link_to "Sign up", signup_path, class: "m-4 btn btn-md btn-warning" %>
-  <div class="d-flex-center">
-    <div class="d-flex-start"></div>
-    <div class="custom-container m-4 p-3 shadow">
-      <div class="profile">
-        <a class="navbar-brand" href="#">
-        <%= image_tag "Linkedin profile photo.png", class: "img-fluid", alt: "profile", style: "height: 70px; width: 70px;" %>
-        </a>
-        <p class="username">Corey Thompson</p>
-      </div>
-      <div class="article-image text-center img-fluid">
-        <img src="/Users/coreythompson/Desktop/Assets/journey_image.jpg" alt="Article Image">
-      </div>
-      <h2 class="text-center">Zero to MVP: My Software Developer Journey</h2>
-      <p class="text-center">Embarking on the path from zero to MVP (Minimum Viable Product) has been an exhilarating adventure. As an AI/ML enthusiast, transitioning to Ruby on Rails to create my first MVP product has been both challenging and rewarding. This blog chronicles my journey, from the initial spark of an idea to the development and deployment of a functional product. Along the way,</p>
-      <div class="btn m-1 p-">
-        <img src="/Users/coreythompson/Desktop/Assets/comment.png" alt="comment btn" style="height: 30px; width: 30px; margin-bottom: 0px; margin-right: 10px;">11
-      </div>
-      <div class="btn m-1 p-">
-        <img src="/Users/coreythompson/Desktop/Assets/like.png" alt="like btn" style="height: 30px; width: 30px; margin-bottom: 0px; margin-right: 10px;">2041
-      </div>
-      <div class="btn m-1 p-">
-        <img src="/Users/coreythompson/Desktop/Assets/share.png" alt="share btn" style="height: 30px; width: 30px; margin-bottom: 0px; margin-right: 10px;">
-      </div>
-      <div class="btn m-1 p-">
-        <img src="/Users/coreythompson/Desktop/Assets/bookmark.png" alt="bookmark btn" style="height: 30px; width: 30px; margin-bottom: 0px; margin-right: 10px;">
-      </div>
-    </div>
+<div class="container mt-4" id="home-container">
+  <div class="jumbotron text-center text-white">
+    <%= image_tag "bee_logo_2.png", class: "img-fluid custom-mb image-upward", alt: "Bee Logo", style: "height: 400px; width: 600px;" %>    
+    <h2>A vibrant platform where readers engage with dynamic ideas and expert insights.</h2>
+    <p class="lead mb-4">Share your voice and explore diverse writing on any topic, from emerging voices to seasoned experts.<br> Join our community and start your journey today.</p>
+    <%= link_to "Sign up!", signup_path, class: "btn btn-warning btn-lg mb-1" %>
+    <hr class="my-2">
+    <p class="mb-0">Stay safe and post responsibly.</p>
   </div>
-  <div class="trending-articles">
-    <div class="card" style="width: 16rem;">
-      <h4 class="text-center">Trending Articles</h4>
-      <img src="/Users/coreythompson/Desktop/Assets/article_pic1.jpg" class="card-img-top" alt="Trending Article Image">
-      <div class="card-body">
-        <h6 class="text-center fw-bold">Zero to MVP: My Software Developer Journey</h6>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-  <div class="d-flex-center">
-    <div class="d-flex-start"></div>
-    <div class="custom-container m-4 p-3 shadow">
-      <div class="profile">
-      <a class="navbar-brand" href="#">
-      <%= image_tag "Linkedin profile photo.png", class: "img-fluid", alt: "profile", style: "height: 70px; width: 70px;" %>
-      </a>
-        <p class="username">Corey Thompson</p>
-      </div>
-      <div class="article-image text-center img-fluid">
-        <img src="/Users/coreythompson/Desktop/Assets/journey_image.jpg" alt="Article Image">
-      </div>
-      <h2 class="text-center">Zero to MVP: My Software Developer Journey</h2>
-      <p class="text-center">Embarking on the path from zero to MVP (Minimum Viable Product) has been an exhilarating adventure. As an AI/ML enthusiast, transitioning to Ruby on Rails to create my first MVP product has been both challenging and rewarding. This blog chronicles my journey, from the initial spark of an idea to the development and deployment of a functional product. Along the way,</p>
-      <div class="btn m-1 p-">
-        <img src="/Users/coreythompson/Desktop/Assets/comment.png" alt="comment btn" style="height: 30px; width: 30px; margin-bottom: 0px; margin-right: 10px;">11
-      </div>
-      <div class="btn m-1 p-">
-        <img src="/Users/coreythompson/Desktop/Assets/like.png" alt="like btn" style="height: 30px; width: 30px; margin-bottom: 0px; margin-right: 10px;">2041
-      </div>
-      <div class="btn m-1 p-">
-        <img src="/Users/coreythompson/Desktop/Assets/share.png" alt="share btn" style="height: 30px; width: 30px; margin-bottom: 0px; margin-right: 10px;">
-      </div>
-      <div class="btn m-1 p-">
-        <img src="/Users/coreythompson/Desktop/Assets/bookmark.png" alt="bookmark btn" style="height: 30px; width: 30px; margin-bottom: 0px; margin-right: 10px;">
-      </div>
-    </div>
-  </div>
-  <div class="d-flex-center">
-    <div class="custom-container m-4 p-3 shadow">
-      <div class="profile">
-      <a class="navbar-brand" href="#">
-      <%= image_tag "Linkedin profile photo.png", class: "img-fluid", alt: "profile", style: "height: 70px; width: 70px;" %>
-      </a>
-        <p class="username">Corey Thompson</p>
-      </div>
-      <h2>Zero to MVP: My Software Developer Journey</h2>
-      <p>Embarking on the path from zero to MVP (Minimum Viable Product) has been an exhilarating adventure. As an AI/ML enthusiast, transitioning to Ruby on Rails to create my first MVP product has been both challenging and rewarding. This blog chronicles my journey, from the initial spark of an idea to the development and deployment of a functional product. Along the way,</p>
-      <div class="btn m-1 p-">
-        <img src="/Users/coreythompson/Desktop/Assets/comment.png" alt="comment btn" style="height: 30px; width: 30px; margin-bottom: 0px; margin-right: 10px;">11
-      </div>
-      <div class="btn m-1 p-">
-        <img src="/Users/coreythompson/Desktop/Assets/like.png" alt="like btn" style="height: 30px; width: 30px; margin-bottom: 0px; margin-right: 10px;">2041
-      </div>
-      <div class="btn m-1 p-">
-        <img src="/Users/coreythompson/Desktop/Assets/share.png" alt="share btn" style="height: 30px; width: 30px; margin-bottom: 0px; margin-right: 10px;">
-      </div>
-      <div class="btn m-1 p-">
-        <img src="/Users/coreythompson/Desktop/Assets/bookmark.png" alt="bookmark btn" style="height: 30px; width: 30px; margin-bottom: 0px; margin-right: 10px;">
-      </div>
-    </div>
-  </div>
+</div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
